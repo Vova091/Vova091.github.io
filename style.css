@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit:wght@300&display=swap');
+*{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.navbar-collapse{
+	justify-content: flex-end;
+}
+.nav-item{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.header{
+	background: url(https://www.bmw.ua/content/dam/bmw/common/all-models/m-series/x5m/2019/Inspire/bmw-x5-m-inspire-sp-desktop.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1654260370641.jpg);
+	height: 1000px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background:#a2a2a22e;;
+}
+.overlay div{
+	color: white;
+	top: 17%;
+	position: absolute;
+	min-width: 100%;
+}
+.overlay div h1{
+	letter-spacing: 8px;
+
+}
+.overlay h4{
+	margin-right: 12px;
+	font-size: 18px;
+	font-style: italic;
+}
+.about{
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+.about div[class|="col"]{
+	padding-left: 60px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+}
+.about .row .text-center{
+	border-right: 2px solid black;
+	height: 224px;
+}
+div p{
+	margin-left: 30px;
+}
+
+.cars, .products, .feedback{
+	background-color:#343a40;
+	color: white;
+	padding-bottom: 4em;
+	padding-top: 4em;
+}
+.cars .text-center{
+	font-size: 2.5rem;
+}
+.trade_in h1, .about h1, .products h1, .our_team h1{
+	padding-bottom: 1em;
+}
+.card-img img{
+	padding-top: 15px;
+}
+
+.products .card{
+	color: black;
+}
+.trade_in{
+	padding-top: 4em;
+}
+
+.carousel-item img{
+	background-size: cover;
+	height: 600px;
+	min-height: 100%;
+	min-width: 100%;
+	max-height: 100%;
+	max-width: 100%;
+}
+.carousel-item img{
+	position: relative;
+}
+
+.carousel-item h1{
+	position: absolute;
+	bottom: 500px;
+	left: 70px;
+	top:70px;
+	color: white;
+	font-size: 3rem;
+	font-style: italic;
+}
+.card-body p{
+	border-top: 1px solid #acafb1;
+	padding-top: 30px;
+}
+.cars .container .text-center{
+	padding-top: 25px;
+	font-size: 30px;
+}
+.cars .container h1{
+	border-top: 2px solid white;
+}
+
+.our_cars{
+	padding-bottom: 10px;
+}
+
+.carousel-item h6{
+	position: absolute;
+	bottom: 460px;
+	left: 70px;
+	top:150px;
+	color: white;
+	font-size: 2rem;
+	font-style: italic;
+}
+
+.our_team img{
+	border: 3px solid black;
+}
+.team-description{
+	background-color: black;
+	color: white;
+}
+ .team-description span{
+	font-size: 0.8em;
+	color: lightgray;
+}
+.our_team .col-12{
+	padding-bottom: 40px;
+
+}
+.feedback .text-center{
+	align-self: center;
+}
+
+.our_team h1{
+	padding-top: 2rem;
+}
