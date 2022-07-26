@@ -129,10 +129,10 @@ div p{
 }
 
 .our_team img{
-	border: 2px solid #343a40;
+	border: 2px solid gray;
 }
 .team-description{
-	background-color: #343a40;
+	background-color: gray;
 	color: white;
 }
  .team-description span{
