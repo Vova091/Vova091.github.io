@@ -1,3 +1,6 @@
+body{
+	overflow-x: hidden;
+}
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit:wght@300&display=swap');
 *{
 	font-family: 'Josefin Sans', sans-serif;
@@ -128,10 +131,10 @@ div p{
 }
 
 .our_team img{
-	border: 2px solid gray;
+	border: 2px solid #343a40;
 }
 .team-description{
-	background-color: gray;
+	background-color: #343a40;
 	color: white;
 }
  .team-description span{
