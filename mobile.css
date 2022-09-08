@@ -1,3 +1,15 @@
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+ }
 .header{
 	background: url(https://www.bmw.ua/content/dam/bmw/common/all-models/i-series/i4/onepager-new/bmw-i4-edrive-40-onepager-wide-teaser-bmw-i4-m50.jpg/jcr:content/renditions/cq5dam.resized.img.500.low.time1626079189108.jpg);
 	height: 300px;
