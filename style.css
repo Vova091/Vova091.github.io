@@ -1,5 +1,14 @@
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body{
-	overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 *{
 	font-family: 'Josefin Sans', sans-serif;
